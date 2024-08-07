@@ -122,7 +122,7 @@ class Camera {
             }
             if (this.disableMovement || !this.isCalibrating) return
 
-            this.raycast(e.clientX, e.clientY)
+            //this.raycast(e.clientX, e.clientY)
         })
 
         // Update camera from mouse and keyboard inputs
