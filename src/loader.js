@@ -12,7 +12,7 @@ async function loadPly(content) {
     const match = header.match(regex)
     gaussianCount = parseInt(match[1])
 
-    document.querySelector('#loading-text').textContent = `Success. Initializing ${gaussianCount} gaussians...`
+    document.querySelector('#loading-text').textContent = `Success. Initializingggg ${gaussianCount} gaussians...`
 
     // Create arrays for gaussian properties
     const positions = []
